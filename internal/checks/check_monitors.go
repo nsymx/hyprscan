@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"charm.land/lipgloss/v2"
-	"github.com/nsymx/hyprscan/styles"
+	"github.com/nsymx/hyprscan/internal/styles"
 )
 
 func Monitors() {
