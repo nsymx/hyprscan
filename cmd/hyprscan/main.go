@@ -60,19 +60,18 @@ func renderHeader() {
 
 func main() {
 
-	versionFlag := flag.Bool("version", false, "Print current version")
-
 	if runtime.GOOS != "linux" {
 		fmt.Println()
 		logger.Fatal("Unsupported operating system, aborting...")
 	}
-	ClearScreen()
-
+	versionFlag := flag.Bool("version", false, "Print current version")
 	flag.Parse()
+
 	if *versionFlag {
 		lipgloss.Println(styles.InfoStyle.Render(name), "-", strings.TrimSpace(version))
 		os.Exit(0)
 	}
+	ClearScreen()
 
 	renderHeader()
 	helper.CoreRendering()
