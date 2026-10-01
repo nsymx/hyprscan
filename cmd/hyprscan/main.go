@@ -11,8 +11,8 @@ import (
 	"charm.land/lipgloss/v2"
 	"charm.land/lipgloss/v2/tree"
 	"github.com/charmbracelet/log"
-	"github.com/nsymx/hyprscan/helper"
-	"github.com/nsymx/hyprscan/styles"
+	"github.com/nsymx/hyprscan/internal/helper"
+	"github.com/nsymx/hyprscan/internal/styles"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/nsymx/hyprscan/checks"
-	"github.com/nsymx/hyprscan/styles"
+	"github.com/nsymx/hyprscan/internal/checks"
+	"github.com/nsymx/hyprscan/internal/styles"
 
 	"charm.land/lipgloss/v2"
 )

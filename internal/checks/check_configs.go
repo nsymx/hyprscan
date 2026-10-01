@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/nsymx/hyprscan/styles"
+	"github.com/nsymx/hyprscan/internal/styles"
 
 	"charm.land/lipgloss/v2"
 )
